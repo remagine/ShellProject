@@ -27,16 +27,16 @@ public class Cat {
                     if (len == -1) {
                         break;
                     }
-                    bufferedOutputStream.write(buffer,0,len);
+                    bufferedOutputStream.write(buffer, 0, len);
                 }
             } catch (IOException e) {
                 System.out.println(fileName + ": (No such file or directory) ");
             }
-            try {
-                bufferedOutputStream.flush();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
+        }
+        try {
+            bufferedOutputStream.flush();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
     }
 }

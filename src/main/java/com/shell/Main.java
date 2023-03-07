@@ -21,6 +21,5 @@ public class Main {
 
         Cat cat = new Cat();
         cat.execute(fileNames5);
-
     }
 }
