@@ -5,5 +5,6 @@ public class Main {
         String path = "gradlew";
         FileInputStreamPractice2 fileInputStreamPractice2 = new FileInputStreamPractice2();
         fileInputStreamPractice2.printFile(path);
+        // Cat 실행은 com.shell.Main참조
     }
 }
