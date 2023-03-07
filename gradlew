@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#
+# 안녕하세요. 테스트용으로 한글을 넣어봤습니다. 지워도 되는 텍스트입니다.
 # Copyright © 2015-2021 the original authors.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
